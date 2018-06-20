@@ -34,6 +34,5 @@ const md2html = unified('m2h', [mdast2hast])
 const md2html2json = mount(md2html, { replacer, space })
 ```
 
-
 ## License
 MIT (http://opensource.org/licenses/MIT)
