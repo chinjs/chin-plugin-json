@@ -23,16 +23,8 @@ const ext = json()
 #### [options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 - `replacer`
 - `space`
+- `parse`
 
-### mount(ext, options)
-```js
-import { mount } from 'chin-plugin-json'
-import unified from 'chin-plugin-unified'
-import mdast2hast from 'remark-rehype'
-
-const md2html = unified('m2h', [mdast2hast])
-const md2html2json = mount(md2html, { replacer, space })
-```
 
 ## License
 MIT (http://opensource.org/licenses/MIT)
